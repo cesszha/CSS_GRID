@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.grid-item {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery-container {
+    display: grid;
+}
+
+.gallery-item {
+    width: calc(100% - 20px);
+}
+
+.contact-form {
+    max-width: 400px;
+    margin: auto;
+}
+    </style>
+</head>
+<body>
+    <h1>Image Gallery</h1>
+    <div class="grid-container gallery-container">
+        <img src="https://via.placeholder.com/150" alt="Image 1" class="gallery-item" />
+        <img src="https://via.placeholder.com/150" alt="Image 2" class="gallery-item" />
+        <img src="https://via.placeholder.com/150" alt="Image 3" class="gallery-item" />
+        <img src="https://via.placeholder.com/150" alt="Image 4" class="gallery-item" />
+        <img src="https://via.placeholder.com/150" alt="Image 5" class="gallery-item" />
+    </div>
+</body>
+</html>

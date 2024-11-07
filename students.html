@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List of Students</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.grid-item {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery-container {
+    display: grid;
+}
+
+.gallery-item {
+    width: calc(100% - 20px);
+}
+
+.contact-form {
+    max-width: 400px;
+    margin: auto;
+}
+    </style>
+</head>
+<body>
+    <h1>Students</h1>
+    <div class="grid-container">
+        <div class="grid-item">Student A</div>
+        <div class="grid-item">Student B</div>
+        <div class="grid-item">Student C</div>
+        <div class="grid-item">Student D</div>
+        <div class="grid-item">Student E</div>
+    </div>
+</body>
+</html>
